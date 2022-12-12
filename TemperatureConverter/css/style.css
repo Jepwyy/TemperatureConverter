@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+}
+.first {
+  height: 110vh;
+  background: url(/images/bg1.jpg) no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+.cube {
+  color: #ffffff;
+  margin-left: 6%;
+}
+.cube h1 {
+  color: #ff0000;
+  font-size: 60px;
+  margin: 0;
+}
+.cube h2 {
+  color: #2020ff;
+  font-size: 30px;
+}
+.cube li a {
+  color: #ffffff;
+  border: 1px;
+}
+.cube li a:hover {
+  color: #ff0000;
+}
+img {
+  height: 400px;
+  margin-right: 3%;
+  margin-top: 5%;
+  box-shadow: 5px 4px 10px #8b0000;
+}
+img:hover {
+  box-shadow: 5px 4px 10px #ff0000;
+}
+p {
+  color: #ffffff;
+  margin-left: 5%;
+}
+ol li span {
+  font-style: italic;
+}
+.cube ul li a {
+  text-decoration: none;
+}
+.btn {
+  width: 180px;
+  height: 46px;
+  background: none;
+  border: 4px solid;
+  color: #ff0000;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+}
+
+.btn::before,
+.btn::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 4px;
+  background: #800000;
+  transform: skewX(50deg);
+  transition: 0.4s linear;
+}
+
+.btn::before {
+  top: -4px;
+  left: 10%;
+}
+
+.btn::after {
+  bottom: -4px;
+  right: 10%;
+}
+
+.btn:hover::before {
+  left: 80%;
+}
+
+.btn:hover::after {
+  right: 80%;
+}
+.second {
+  height: 130vh;
+  background: url(/images/bg2.jpg) no-repeat;
+  background-size: cover;
+}
+.second h1 {
+  color: #ff0000;
+  font-size: 60px;
+  margin: 0;
+  text-align: center;
+}
+table {
+  transform: translate(-50%, -50%);
+  width: 60%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-shadow: 0 2px 15px rgba(64, 64, 64, 0.7);
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+  margin-left: 50%;
+  margin-top: 26%;
+}
+td,
+th,
+caption {
+  padding: 15px 20px;
+}
+caption {
+  background-color: #ff0000;
+  color: #fafafa;
+  font-family: "Open Sans", Sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+th {
+  background-color: #ff0000;
+  color: #fafafa;
+  font-family: "Open Sans", Sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+tr {
+  width: 100%;
+  background-color: #fafafa;
+  font-family: "Montserrat", sans-serif;
+}
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+tr:hover {
+  background-color: #48dbfb;
+}
+th:hover {
+  background-color: #48dbfb;
+}
+caption:hover {
+  background-color: #48dbfb;
+}
+
+.forth {
+  height: 100vh;
+  background: url(/images/bg3.jpg) no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+.box {
+  color: #ffffff;
+  margin-left: 6%;
+}
+.box h1 {
+  color: #ff0000;
+  font-size: 40px;
+  margin: 0;
+}
+.box h2 {
+  color: #2020ff;
+  font-size: 15px;
+}
+.box ul li {
+  color: #000000;
+}
+.third {
+  height: 100vh;
+  background: url(/images/bg4.jpg) no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+.third h1 {
+  color: #f1f1f1;
+  font-size: 60px;
+  margin: 0;
+  text-align: center;
+}
+.third img {
+  height: 300px;
+  margin-top: 1%;
+  margin-left: 3%;
+}
